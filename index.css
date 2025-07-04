@@ -4,7 +4,7 @@
     background: #0d50b5;
     font-family: sans-serif;
   }
-  /*.star {
+  .star {
     position: fixed;
     background: white;
     border-radius: 50%;
@@ -21,7 +21,7 @@
       opacity: 0;
     }
   }
-}*/
+}
 
 
 
