@@ -1,24 +1,9 @@
-
-
-
-.correct-answer {
-  color: #36ff6b;
-}
-
-.wrong-answer {
-  color: #ff5656;
-}
-
-
-@media (max-width: 478px ) {
-
-      body {
+  body {
     margin: 0;
     overflow: hidden;
     background: #0d50b5;
     font-family: sans-serif;
-        font-family: sans-serif;
-    text-align: center;
+    background: linear-gradient(45deg, #4f697f, #0185a2)
   }
   .star {
     position: fixed;
@@ -39,8 +24,28 @@
   }
 }
 
+
+
+.correct-answer {
+  color: #36ff6b;
+}
+
+.wrong-answer {
+  color: #ff5656;
+}
+
+
+@media (max-width: 478px ) {
+
+  body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+
   .content {
     text-align: center;
+    margin-top: 230px;
 
   }
   .answer-btn {
@@ -121,11 +126,16 @@ font-size: 14px;
 
 button {
   border: none;
-  padding: 15px;
+  padding: 25px;
   background: #d0ff1c;
   font-weight: 700;
   color: #383a3c;
   border-radius: 10px;
+  color: #383a3c;
+  width: 50%;
+  background: linear-gradient(45deg, #f3f2dc, #ffdf61);
+    }
+}
 
     }
 }
