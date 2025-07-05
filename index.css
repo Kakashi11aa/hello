@@ -1,8 +1,24 @@
-  body {
+
+
+
+.correct-answer {
+  color: #36ff6b;
+}
+
+.wrong-answer {
+  color: #ff5656;
+}
+
+
+@media (max-width: 478px ) {
+
+      body {
     margin: 0;
     overflow: hidden;
     background: #0d50b5;
     font-family: sans-serif;
+        font-family: sans-serif;
+    text-align: center;
   }
   .star {
     position: fixed;
@@ -22,24 +38,6 @@
     }
   }
 }
-
-
-
-.correct-answer {
-  color: #36ff6b;
-}
-
-.wrong-answer {
-  color: #ff5656;
-}
-
-
-@media (max-width: 478px ) {
-
-  body {
-    font-family: sans-serif;
-    text-align: center;
-  }
 
   .content {
     text-align: center;
